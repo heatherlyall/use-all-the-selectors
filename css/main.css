@@ -10,50 +10,50 @@ nav ul {
   font-family: sans-serif;
 }
 
-class="logo" {
+.logo {
   text-transform: uppercase;
 }
 
-class="wrapper" {
+.wrapper {
   background-color: #eee8d5;
 }
 
-/* IDEA: contents,favs,facts,types */{
-color: #93a1a1;
+#contents #favs, #facts, #types {
+  color: #93a1a1;
 }
 
-class="dfn" .wrapper {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-class="dfn" <strong>Botanically, fruits are from the flower of edible plants.</strong>{
+p + strong {
   color: #fff;
 }
-<a href="index.html">Home</a>
-<a href="history.html">History</a>
-<a href="contact.html">Contact</a>
-<a href="favs">Favourite Fruits</a> {
+
+a:not(.no-highlight) {
   background-color: #719e07;
 }
-link, rel="external" {
+
+a[ref="external"] {
   background-color: #2694d8;
 }
 
-li ol Raspberry {
+ol li:first-of-type {
   color: #719e47;
 }
 
-li ol Blueberry {
+ol li:last-of-type {
   color: #2aa198;
 }
 
-li .types capsule, Cypsela, follicle, loment, samara, silique, utricle {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-li .types achene, caryopsis, fibrous drupe, legume, nut, schizocarp, silicle {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
-li .types caryopsis, follicle, nut, silique {
+
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
